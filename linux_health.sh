@@ -1,4 +1,10 @@
 #!/bin/bash
+file_checksum=$(cat $0 | wc -c)
+if [ $file_checksum -ne 7763 ]
+then
+	echo "File missed checksum check, Unsafe to run the script" 
+	exit 
+fi 
 ##---------- Author : Sadashiva Murthy M ----------------------------------------------------##
 ##---------- Blog site : https://www.simplylinuxfaq.com -------------------------------------##
 ##---------- Github page : https://github.com/SimplyLinuxFAQ/health-check-script ------------##
