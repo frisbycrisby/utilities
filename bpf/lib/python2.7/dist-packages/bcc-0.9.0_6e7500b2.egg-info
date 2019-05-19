@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bcc
+Version: 0.9.0-6e7500b2
+Summary: BPF Loader Library
+Home-page: https://github.com/iovisor/bcc
+Author: Brenden Blanco
+Author-email: bblanco@plumgrid.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: Linux
